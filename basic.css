@@ -1,0 +1,415 @@
+body{
+    display: flex;
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5%;
+    background-image: url(images/pexels-codioful-7130475.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#details{
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 99%;
+    height: 99%;
+}
+
+#navbar{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5%;
+    justify-content: space-evenly;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 0.5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    color: white;
+    font-family: 'Comic Sans MS', 'Arial Narrow', Arial, sans-serif;
+    font-size: 116.50%;
+}
+.icons{
+    height: 5%;
+    width: 60%;
+    border-radius: 100%;
+}
+.icons:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.8);
+    background-color: rgba(15, 255, 255, 0.49);
+}
+
+#weather{
+    background-color: transparent;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    text-align: center;
+}
+#extra{
+    width: 100%;
+    height: 42vh;
+    display: flex;
+}
+#x1{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 95%;
+    padding: 0%;
+    margin: 0.5%;
+    margin-left: 0.8%;
+    margin-right: 2%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    font-size: 400%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#temp{
+    position: absolute;
+    height: 50%;
+    width: 18%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    text-align: center;
+    margin-top: 0.1%;
+    margin-left: 74.3%;
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    align-items: center;
+}
+#degree{
+    margin: 0%;
+    padding: 0%;
+    font-size: 400%;
+    margin-top: 16%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#feels{
+    font-size: 190%;
+    border-radius: 20%;
+    margin: 0 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    padding: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: white;
+    margin-top: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+
+}
+
+
+
+#sky{
+    width: 80%;
+    height: 70%;
+    margin-top: -6%;
+    margin-bottom: 20.5%;
+    padding: 0%;
+    margin-left: 8%; 
+    padding-bottom: 4%;
+      
+}
+
+#image{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    margin-right: 1.8%;
+    margin-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+#cond{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 260%;
+    margin-top: -12%;
+    color: aqua;
+}
+
+
+
+
+
+#name{
+    background-color: #111111;
+    width: 55%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    padding: 0%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#location{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+#stats{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 11%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+    margin-bottom: 6%;
+    justify-content: space-evenly;
+}
+.stat{
+    border-radius: 20%;
+    margin: 0 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#city{
+    padding: 0%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: aqua;
+    font-size: 490%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#cont{
+    margin: 0%;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    font-size: 490%;
+
+}
+
+#searchbar{
+    height: 12%;
+    width: 90%;
+    margin-top: 11%;
+    padding: 0%;
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 5px rgba(220,20,60,0.8);
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    
+}
+#mg{
+    height: 70%;
+    width: 40%;
+    margin: 0%;
+    padding: 0%;
+    margin-right: 6%;
+    transition: transform 0.1s ease-in-out;
+}
+
+#mg:active{
+    transform: scale(0.5);
+}
+
+
+
+#search{
+    height: 80%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    outline: none;
+    accent-color: crimson;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+
+#sunrise,#sunset{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+}
+#srimg,#ssimg{
+    height: 40%;
+    width: 60%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#sr,#ss{
+    height: max-content;
+    width: 100%;
+    font-size: 30%;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 6%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sstxt,#srtxt{
+    height: 20%;
+    width: 100%;
+    font-size: 90%;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 7%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#x2{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 95%;
+    margin: 0.5%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.x2img{
+    height: 65%;
+    width: 32%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 16.5%;
+}
+
+#max,#min{
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+
+#maxtxt,#mintxt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+#maxtemptxt,#mintemptxt{
+    font-size: 145%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#maxtemp,#mintemp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-size: 135%;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 15%;
+}
+#maxtemp{
+    color: crimson;
+}
+#mintemp{
+    color: aqua;
+}
+
+#footer{
+    font-family: 'Monaco', 'Andale Mono', 'Monospaced', monospace;
+    position: absolute;
+    margin: 0%;
+    margin-top: 47.5%;
+    font-size: 125%;
+    color: crimson;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+
+}
+

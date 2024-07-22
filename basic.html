@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divweather</title>
+    <link rel="stylesheet" href="basic.css" />
+  </head>
+  <body onload="checkweather()">
+    <div id="navbar">
+     <!--<img src="home.png" class="icons">
+     <img src="home.png" class="icons">
+     <img src="home.png" class="icons">
+     <img src="home.png" class="icons">
+     <img src="home.png" class="icons">-->
+     <p>D</p><p>I</p><p>V</p><p>W</p><p>E</p><p>A</p><p>T</p><p>H</p><p>E</p><p>R</p>     
+    </div>
+    <div id="details">
+
+      <div id="weather">
+
+        <div id="image">
+
+          <img src="images/2682827_cloud_day_light bolt_rain_sun_icon.png" id="sky">
+          
+          <p id="cond">Cloudy</p>
+        
+        </div>
+
+        <div id="name">
+          <div id="location">
+          <p id="city">New Delhi</p>
+          <pre id="cont"> , IN</pre>
+          </div>
+          <div id="stats">
+          <pre class="stat" id="humidity">Humidity </pre>
+          <pre class="stat" id="air">Pressure </pre>
+          <pre class="stat" id="precipitation">Clouds </pre>
+          </div>
+        </div>
+
+        
+        <div id="temp">
+          <div id="searchbar">
+            <input type="text" id="search" placeholder="Search" onchange="changecity()">
+            <img src="images/—Pngtree—vector search icon_4271228.png" id="mg" onclick="changecity()">
+          </div>
+          
+          <p id="degree"></p>
+          <p id="feels"></p>
+        
+        </div>
+
+      </div>
+
+      <div id="extra">
+
+        <div id="x1">
+          <div id="sunrise">
+            <img src="images/sunrise.png" id="srimg">
+            <p id="sr"></p>
+            <p id="srtxt">Sunrise</p>
+          </div>
+          <div id="sunset">
+            <img src="images/sunset.png" id="ssimg">
+            <p id="ss"></p>
+            <p id="sstxt">Sunset</p>
+          </div>
+        </div>
+
+        <div id="x2">
+          <div id="max">
+            <img src="images/7984981_weather_temperature_thermometer_hot_summer_icon.png" class="x2img">
+            <div id="maxtxt">
+              <p id="maxtemp"></p>
+              <p id="maxtemptxt">Max Temp</p>
+            </div>
+          </div>
+          <div id="min">
+            <img src="images/7984990_weather_temperature_thermometer_cold_winter_icon.png" class="x2img">
+            <div id="mintxt">
+              <p id="mintemp"></p>
+              <p id="mintemptxt">Min Temp</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+    <pre id="footer"> MADE BY < DIVIT SRIVASTAVA ></pre>
+
+    <script src="basic.js"></script>
+  </body>
+</html>
